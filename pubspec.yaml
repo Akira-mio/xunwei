@@ -1,0 +1,44 @@
+name: xunwei
+description: "一个基于大模型的美食推荐应用，结合用户个性化需求推荐美食，并提供制作和就餐解决方案。"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.1.1
+  shared_preferences: ^2.2.2
+  sqflite: ^2.3.2
+  path: ^1.8.3
+  http: ^1.1.0
+  image_picker: ^1.0.4
+  url_launcher: ^6.1.14
+  flutter_svg: ^2.0.9
+  google_fonts: ^6.1.0
+  flutter_slidable: ^3.0.1
+  intl: ^0.19.0
+  html: ^0.15.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # 暂时注释掉资源文件配置，等创建好相应目录和文件后再启用
+  # assets:
+  #   - assets/images/
+  #   - assets/icons/
+  
+  # fonts:
+  #   - family: NotoSansSC
+  #     fonts:
+  #       - asset: assets/fonts/NotoSansSC-Regular.otf
+  #       - asset: assets/fonts/NotoSansSC-Bold.otf
+  #         weight: 700
